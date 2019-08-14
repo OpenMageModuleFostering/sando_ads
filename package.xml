@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package>
+    <name>Sando_Ads</name>
+    <version>1.0.3</version>
+    <stability>stable</stability>
+    <license>BSDL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Integrate from Magento to Sales and Orders Adds SAAS. Structure Google Product Ads in the most cost-effective manner. Analyze profit and loss for each product.</summary>
+    <description>This extension helps the integration process with Sales and Orders Ads. &#xD;
+Overview of Sales and Orders Ads Below&#xD;
+Get access to the tool the pros use to efficiently advertise your products on the world's largest market places.&#xD;
+Our platform uses unique algorithms that guides you to structure ads in the most cost-effective manner. You'll gain a comprehensive understanding of profit and loss for each product to make the necessary adjustments to your campaigns to maximize profitability on every sale.</description>
+    <notes>Integration with Sales and Orders Ads.</notes>
+    <authors><author><name>Bryan Natter</name><user>newdynamx</user><email>bnatter@newdynamx.com</email></author><author><name>John Franco</name><user>jfranco</user><email>jfranco@newdynamx.com</email></author></authors>
+    <date>2014-02-07</date>
+    <time>23:33:39</time>
+    <contents><target name="magecommunity"><dir name="Sando"><dir name="Ads"><dir name="etc"><file name="config.xml" hash="35a299dee4d35b6e73fbccb068de4737"/><file name="system.xml" hash="c2feea6f5fbef02d6ecbd008ee29cc7e"/></dir><file name="LICENSE.txt" hash="1ea3209a9485a63c7615aabccffaa1f0"/></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Sando_Ads.xml" hash="7bad05be5b9df6006b3fb8ed214ed7f8"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.3.9</min><max>5.5.7</max></php><package><name>Mage_Core_Modules</name><channel>community</channel><min>1.6.0</min><max>1.8</max></package></required></dependencies>
+</package>
