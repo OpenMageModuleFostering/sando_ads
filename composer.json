@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Sando_Ads",
+    "name": "OpenMageModuleFostering\/Sando_Ads",
     "type": "magento-module",
     "license": "BSDL",
     "homepage": "",
     "description": "Integrate from Magento to Sales and Orders Adds SAAS. Structure Google Product Ads in the most cost-effective manner. Analyze profit and loss for each product.",
     "authors": [
-    {
-        "name": "Bryan Natter",
-        "email": "bnatter@newdynamx.com"
-    }
-],
+        {
+            "name": "Bryan Natter",
+            "email": "bnatter@newdynamx.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
